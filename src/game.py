@@ -353,10 +353,10 @@ class Game(object):
             # Om hela bakgrunden spelats upp, börja om
             # !TODO VERKAR INTE FUNGERA!
             if(self.bg_x==-4167):
-                print "change bg"
+                print("change bg")
                 self.bg_x = 0
             if(self.fg_x==-8000):
-                print "change fg"
+                print("change fg")
                 self.fg_x = 0
                
             # KONTROLLERA KOLLISIONER ----------------------------------------
